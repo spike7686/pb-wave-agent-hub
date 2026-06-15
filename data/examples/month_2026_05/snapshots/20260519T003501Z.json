@@ -1,0 +1,141 @@
+{
+  "snapshot_id": "20260519T003501Z",
+  "captured_at_utc": "2026-05-19T00:35:01.212861+00:00",
+  "rows": [
+    {
+      "symbol": "DYM",
+      "signal_symbol": "DYMUSDT",
+      "change_24h_pct": 17.190000534057617,
+      "volume_24h_usd": 20619192.003184237,
+      "top15_position": 1,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "INJ",
+      "signal_symbol": "INJUSDT",
+      "change_24h_pct": 16.760000228881836,
+      "volume_24h_usd": 102268779.88022009,
+      "top15_position": 2,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "CFG",
+      "signal_symbol": "CFGUSDT",
+      "change_24h_pct": 16.18000030517578,
+      "volume_24h_usd": 46492918.57470572,
+      "top15_position": 3,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "ONDO",
+      "signal_symbol": "ONDOUSDT",
+      "change_24h_pct": 14.539999961853027,
+      "volume_24h_usd": 199192067.41992325,
+      "top15_position": 4,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "OPEN",
+      "signal_symbol": "OPENUSDT",
+      "change_24h_pct": 13.100000381469727,
+      "volume_24h_usd": 48006219.192883566,
+      "top15_position": 5,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "TOWNS",
+      "signal_symbol": "TOWNSUSDT",
+      "change_24h_pct": 12.100000381469727,
+      "volume_24h_usd": 26682727.97526949,
+      "top15_position": 6,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "KITE",
+      "signal_symbol": "KITEUSDT",
+      "change_24h_pct": 11.050000190734863,
+      "volume_24h_usd": 59670117.92593317,
+      "top15_position": 7,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "LIT",
+      "signal_symbol": "LITUSDT",
+      "change_24h_pct": 11.039999961853027,
+      "volume_24h_usd": 26858634.787190385,
+      "top15_position": 8,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "AI",
+      "signal_symbol": "AIUSDT",
+      "change_24h_pct": 10.829999923706055,
+      "volume_24h_usd": 15521985.263646021,
+      "top15_position": 9,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "BERA",
+      "signal_symbol": "BERAUSDT",
+      "change_24h_pct": 9.8100004196167,
+      "volume_24h_usd": 33304175.997220818,
+      "top15_position": 10,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "ALICE",
+      "signal_symbol": "ALICEUSDT",
+      "change_24h_pct": 9.640000343322754,
+      "volume_24h_usd": 27430541.64068012,
+      "top15_position": 11,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "NEAR",
+      "signal_symbol": "NEARUSDT",
+      "change_24h_pct": 9.069999694824219,
+      "volume_24h_usd": 264302379.7986384,
+      "top15_position": 12,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "HYPER",
+      "signal_symbol": "HYPERUSDT",
+      "change_24h_pct": 8.970000267028809,
+      "volume_24h_usd": 43413513.02843521,
+      "top15_position": 13,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "币安人生",
+      "signal_symbol": "币安人生USDT",
+      "change_24h_pct": 8.40999984741211,
+      "volume_24h_usd": 23790037.90850208,
+      "top15_position": 14,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    },
+    {
+      "symbol": "ZEC",
+      "signal_symbol": "ZECUSDT",
+      "change_24h_pct": 7.349999904632568,
+      "volume_24h_usd": 926567034.5707542,
+      "top15_position": 15,
+      "snapshot_id": "20260519T003501Z",
+      "captured_at_utc": "2026-05-19T00:35:01.212861+00:00"
+    }
+  ]
+}

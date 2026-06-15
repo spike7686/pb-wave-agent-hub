@@ -1,0 +1,18 @@
+{
+  "snapshot_glob": "data/examples/month_2026_05/snapshots_min/*.json",
+  "kline_dir": "data/examples/month_2026_05/klines_1h_min",
+  "oi_dir": "data/examples/month_2026_05/oi_1h_min",
+  "output_dir": "data/examples/month_2026_05/runs_min",
+  "carry_equity": true,
+  "lookback_hours": 240,
+  "forward_hours": 168,
+  "strategies": [
+    {"strategy_id": "wave_proto_balanced_risk_5", "strategy_code": "PB5", "risk_pct": 5.0},
+    {"strategy_id": "wave_proto_balanced_risk_7_5", "strategy_code": "PB7.5", "risk_pct": 7.5},
+    {"strategy_id": "wave_proto_balanced_risk_10", "strategy_code": "PB10", "risk_pct": 10.0}
+  ],
+  "cost_model": {
+    "fee_bps_per_side": 4.0,
+    "slippage_bps_per_side": 5.0
+  }
+}

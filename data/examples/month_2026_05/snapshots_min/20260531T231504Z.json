@@ -1,0 +1,69 @@
+{
+  "snapshot_id": "20260531T231504Z",
+  "captured_at_utc": "2026-05-31T23:15:04.148091+00:00",
+  "rows": [
+    {
+      "symbol": "PORTAL",
+      "signal_symbol": "PORTALUSDT",
+      "change_24h_pct": 150.6999969482422,
+      "volume_24h_usd": 28374247.218327865,
+      "top15_position": 1,
+      "snapshot_id": "20260531T231504Z",
+      "captured_at_utc": "2026-05-31T23:15:04.148091+00:00"
+    },
+    {
+      "symbol": "STG",
+      "signal_symbol": "STGUSDT",
+      "change_24h_pct": 70.58999633789062,
+      "volume_24h_usd": 88539648.95024297,
+      "top15_position": 2,
+      "snapshot_id": "20260531T231504Z",
+      "captured_at_utc": "2026-05-31T23:15:04.148091+00:00"
+    },
+    {
+      "symbol": "HOME",
+      "signal_symbol": "HOMEUSDT",
+      "change_24h_pct": 35.869998931884766,
+      "volume_24h_usd": 59060857.79906236,
+      "top15_position": 3,
+      "snapshot_id": "20260531T231504Z",
+      "captured_at_utc": "2026-05-31T23:15:04.148091+00:00"
+    },
+    {
+      "symbol": "币安人生",
+      "signal_symbol": "币安人生USDT",
+      "change_24h_pct": 18.170000076293945,
+      "volume_24h_usd": 98799813.33985007,
+      "top15_position": 4,
+      "snapshot_id": "20260531T231504Z",
+      "captured_at_utc": "2026-05-31T23:15:04.148091+00:00"
+    },
+    {
+      "symbol": "HIVE",
+      "signal_symbol": "HIVEUSDT",
+      "change_24h_pct": 14.899999618530273,
+      "volume_24h_usd": 92928687.97757389,
+      "top15_position": 5,
+      "snapshot_id": "20260531T231504Z",
+      "captured_at_utc": "2026-05-31T23:15:04.148091+00:00"
+    },
+    {
+      "symbol": "INIT",
+      "signal_symbol": "INITUSDT",
+      "change_24h_pct": 9.890000343322754,
+      "volume_24h_usd": 18449756.09007249,
+      "top15_position": 6,
+      "snapshot_id": "20260531T231504Z",
+      "captured_at_utc": "2026-05-31T23:15:04.148091+00:00"
+    },
+    {
+      "symbol": "KITE",
+      "signal_symbol": "KITEUSDT",
+      "change_24h_pct": 5.570000171661377,
+      "volume_24h_usd": 27709624.880208578,
+      "top15_position": 7,
+      "snapshot_id": "20260531T231504Z",
+      "captured_at_utc": "2026-05-31T23:15:04.148091+00:00"
+    }
+  ]
+}

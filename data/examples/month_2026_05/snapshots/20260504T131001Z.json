@@ -1,0 +1,141 @@
+{
+  "snapshot_id": "20260504T131001Z",
+  "captured_at_utc": "2026-05-04T13:10:01.220009+00:00",
+  "rows": [
+    {
+      "symbol": "TST",
+      "signal_symbol": "TSTUSDT",
+      "change_24h_pct": 76.62999725341797,
+      "volume_24h_usd": 146509414.62571684,
+      "top15_position": 1,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "GIGGLE",
+      "signal_symbol": "GIGGLEUSDT",
+      "change_24h_pct": 25.780000686645508,
+      "volume_24h_usd": 48439601.674577326,
+      "top15_position": 2,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "DASH",
+      "signal_symbol": "DASHUSDT",
+      "change_24h_pct": 22.84000015258789,
+      "volume_24h_usd": 390124349.34277076,
+      "top15_position": 3,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "AXL",
+      "signal_symbol": "AXLUSDT",
+      "change_24h_pct": 20.700000762939453,
+      "volume_24h_usd": 26987986.90492495,
+      "top15_position": 4,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "BANANA",
+      "signal_symbol": "BANANAUSDT",
+      "change_24h_pct": 15.170000076293945,
+      "volume_24h_usd": 29257746.20891804,
+      "top15_position": 5,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "D",
+      "signal_symbol": "DUSDT",
+      "change_24h_pct": 14.699999809265137,
+      "volume_24h_usd": 30745323.106122445,
+      "top15_position": 6,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "ZBT",
+      "signal_symbol": "ZBTUSDT",
+      "change_24h_pct": 14.59000015258789,
+      "volume_24h_usd": 43664128.965371504,
+      "top15_position": 7,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "MUBARAK",
+      "signal_symbol": "MUBARAKUSDT",
+      "change_24h_pct": 14.289999961853027,
+      "volume_24h_usd": 21492216.70801519,
+      "top15_position": 8,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "PENDLE",
+      "signal_symbol": "PENDLEUSDT",
+      "change_24h_pct": 12.84000015258789,
+      "volume_24h_usd": 71295817.82685238,
+      "top15_position": 9,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "LUNC",
+      "signal_symbol": "1000LUNCUSDT",
+      "change_24h_pct": 11.59000015258789,
+      "volume_24h_usd": 76677858.74377272,
+      "top15_position": 10,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "ZEN",
+      "signal_symbol": "ZENUSDT",
+      "change_24h_pct": 10.859999656677246,
+      "volume_24h_usd": 66891662.679612815,
+      "top15_position": 11,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "ONDO",
+      "signal_symbol": "ONDOUSDT",
+      "change_24h_pct": 8.699999809265137,
+      "volume_24h_usd": 197976511.68226853,
+      "top15_position": 12,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "WLFI",
+      "signal_symbol": "WLFIUSDT",
+      "change_24h_pct": 5.650000095367432,
+      "volume_24h_usd": 65096162.45078373,
+      "top15_position": 13,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "BAT",
+      "signal_symbol": "BATUSDT",
+      "change_24h_pct": 4.630000114440918,
+      "volume_24h_usd": 43764050.086931124,
+      "top15_position": 14,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    },
+    {
+      "symbol": "LIT",
+      "signal_symbol": "LITUSDT",
+      "change_24h_pct": 4.309999942779541,
+      "volume_24h_usd": 20123799.710103434,
+      "top15_position": 15,
+      "snapshot_id": "20260504T131001Z",
+      "captured_at_utc": "2026-05-04T13:10:01.220009+00:00"
+    }
+  ]
+}

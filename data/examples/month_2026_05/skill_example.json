@@ -1,0 +1,20 @@
+{
+  "skill_name": "pb_wave_short_skill",
+  "skill_version": "0.1.0",
+  "snapshot_id": "20260501T000001Z",
+  "captured_at_utc": "2026-05-01T00:00:01.366538+00:00",
+  "market": "binance_perp",
+  "universe_size": 3,
+  "state_count": 0,
+  "warning_count": 3,
+  "raw_candidate_count": 0,
+  "base_cluster_count": 0,
+  "candidate_count": 0,
+  "candidates": [],
+  "warnings": [
+    "BIOUSDT oi_align_insufficient",
+    "PENDLEUSDT oi_align_insufficient",
+    "APEUSDT oi_align_insufficient"
+  ],
+  "diagnostics_preview": []
+}

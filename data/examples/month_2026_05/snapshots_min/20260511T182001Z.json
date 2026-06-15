@@ -1,0 +1,51 @@
+{
+  "snapshot_id": "20260511T182001Z",
+  "captured_at_utc": "2026-05-11T18:20:01.972363+00:00",
+  "rows": [
+    {
+      "symbol": "PARTI",
+      "signal_symbol": "PARTIUSDT",
+      "change_24h_pct": 14.119999885559082,
+      "volume_24h_usd": 40454494.57925408,
+      "top15_position": 1,
+      "snapshot_id": "20260511T182001Z",
+      "captured_at_utc": "2026-05-11T18:20:01.972363+00:00"
+    },
+    {
+      "symbol": "FF",
+      "signal_symbol": "FFUSDT",
+      "change_24h_pct": 8.9399995803833,
+      "volume_24h_usd": 74290066.45846733,
+      "top15_position": 2,
+      "snapshot_id": "20260511T182001Z",
+      "captured_at_utc": "2026-05-11T18:20:01.972363+00:00"
+    },
+    {
+      "symbol": "INJ",
+      "signal_symbol": "INJUSDT",
+      "change_24h_pct": 4.369999885559082,
+      "volume_24h_usd": 85099874.58382158,
+      "top15_position": 3,
+      "snapshot_id": "20260511T182001Z",
+      "captured_at_utc": "2026-05-11T18:20:01.972363+00:00"
+    },
+    {
+      "symbol": "NIGHT",
+      "signal_symbol": "NIGHTUSDT",
+      "change_24h_pct": 4.019999980926514,
+      "volume_24h_usd": 24437534.513117723,
+      "top15_position": 4,
+      "snapshot_id": "20260511T182001Z",
+      "captured_at_utc": "2026-05-11T18:20:01.972363+00:00"
+    },
+    {
+      "symbol": "KITE",
+      "signal_symbol": "KITEUSDT",
+      "change_24h_pct": 2.3299999237060547,
+      "volume_24h_usd": 59883759.91629754,
+      "top15_position": 5,
+      "snapshot_id": "20260511T182001Z",
+      "captured_at_utc": "2026-05-11T18:20:01.972363+00:00"
+    }
+  ]
+}

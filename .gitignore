@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Runtime / logs
+logs/
+run/
+*.log
+
+# Large generated data
+data/klines_1h/
+data/oi_1h/
+data/runs/
+data/snapshots/month_*/
+data/examples/month_2026_05/runs_min/
+
+# Keep placeholders and curated examples
+!data/.gitkeep
+!data/examples/
+!data/examples/month_2026_05/
+!data/examples/month_2026_05/snapshots/
+!data/examples/month_2026_05/snapshots_min/
+!data/examples/month_2026_05/klines_1h_min/
+!data/examples/month_2026_05/oi_1h_min/

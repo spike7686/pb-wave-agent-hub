@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PB Wave Clean Monitor</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">PB Wave Clean</p>
+          <h1>PB5 / PB7.5 / PB10</h1>
+          <p class="sub">独立 1h 波段空头虚拟盘，只显示本项目的榜单、策略状态、成本和运行信息。</p>
+        </div>
+        <div class="hero-meta">
+          <div class="card">
+            <span>榜单快照</span>
+            <strong id="market-snapshot">-</strong>
+          </div>
+          <div class="card">
+            <span>交易快照</span>
+            <strong id="trader-snapshot">-</strong>
+          </div>
+          <div class="card">
+            <span>自动刷新</span>
+            <strong id="refresh-at">-</strong>
+          </div>
+          <div class="card">
+            <span>当前状态</span>
+            <strong id="health-text">-</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="summary-strip" id="summary-strip">
+        <article class="metric-card">
+          <span>总权益</span>
+          <strong id="sum-equity">-</strong>
+        </article>
+        <article class="metric-card">
+          <span>已实现</span>
+          <strong id="sum-realized">-</strong>
+        </article>
+        <article class="metric-card">
+          <span>总成本(手续费+滑点)</span>
+          <strong id="sum-cost">-</strong>
+        </article>
+        <article class="metric-card">
+          <span>开仓数</span>
+          <strong id="sum-open">-</strong>
+        </article>
+        <article class="metric-card">
+          <span>平仓数</span>
+          <strong id="sum-closed">-</strong>
+        </article>
+        <article class="metric-card">
+          <span>最大回撤</span>
+          <strong id="sum-dd">-</strong>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>策略卡片</h2>
+          <span id="books-count">-</span>
+        </div>
+        <div id="books" class="books"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Top15 榜单</h2>
+          <span id="market-count">-</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>排名</th>
+                <th>币种 / 合约</th>
+                <th>24h 涨幅</th>
+                <th>信号成交额</th>
+                <th>合约成交额</th>
+              </tr>
+            </thead>
+            <tbody id="market-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="grid">
+        <section class="panel">
+          <div class="panel-head">
+            <h2>交易汇总</h2>
+          </div>
+          <pre id="summary-json" class="json-block"></pre>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <h2>运行状态</h2>
+          </div>
+          <pre id="runtime-json" class="json-block"></pre>
+        </section>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>最近事件</h2>
+        </div>
+        <div id="events" class="events"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>策略仓位历史</h2>
+        </div>
+        <div id="order-history" class="history-grid"></div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

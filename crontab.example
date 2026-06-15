@@ -1,0 +1,11 @@
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# PB wave collector every 5 minutes
+*/5 * * * * cd /root/pb-wave-agent-hub && /usr/bin/python3 scripts/pb_wave_collector.py >> logs/pb_wave_collector.log 2>&1
+
+# PB wave entry every 5 minutes
+*/5 * * * * cd /root/pb-wave-agent-hub && /usr/bin/python3 scripts/pb_wave_paper_trader.py --mode entry_5m >> logs/pb_wave_entry.log 2>&1
+
+# PB wave manage every minute
+* * * * * cd /root/pb-wave-agent-hub && /usr/bin/python3 scripts/pb_wave_paper_trader.py --mode manage_1m >> logs/pb_wave_manage.log 2>&1
