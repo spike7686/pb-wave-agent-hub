@@ -28,4 +28,3 @@ PB Wave short-strategy live paper trader + historical snapshot replay framework 
 - `crypto`
 - `leaderboard`
 - `python`
-- `hackathon`

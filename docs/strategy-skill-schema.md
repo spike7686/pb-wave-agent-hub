@@ -82,7 +82,7 @@ Suggested included fields:
 
 ## Why This Schema Matters
 
-This makes the project easy to judge as a Track 2 submission because it provides:
+This structure is useful because it provides:
 
 - machine-readable strategy outputs
 - a clear bridge between raw market data and final order specs

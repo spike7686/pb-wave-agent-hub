@@ -5,43 +5,18 @@
 - [English](./README.md)
 - 简体中文
 
-目标赛道：
+`PB Wave Agent Hub` 是一个面向 Binance 永续合约市场的 PB Wave 做空策略研究与虚拟交易框架。
 
-- `BNB Hack: AI Trading Agent Edition`
-- `Track 2: Strategy Skills`
-
-`PB Wave Agent Hub` 是一个面向提交的干净仓库，从线上运行中的 `pb_wave_clean` 策略栈和离线研究项目 `pb_rank_replay` 中拆分整理而来。
-
-针对这次黑客松，这个仓库被明确定位为一个 `Strategy Skill` 项目：
+这个项目围绕一条结构化信号管线展开：
 
 - 输入榜单快照
 - 用 Binance 永续合约的 1h K 线和 1h OI 数据补充上下文
 - 产出结构化做空候选信号，包含入场 / 止损 / 目标位
 - 将这些候选信号前向回放，生成订单、PnL 和权益曲线
 
-这样更便于评委从技术实现和可复现性两个角度理解项目，而不会把它误解成一个已经落地到 BSC 的链上实盘 Agent。
-
-## 仓库名称
-
-推荐 GitHub 仓库名：
-
-- `pb-wave-agent-hub`
-
-可选名称：
-
-- `pb-wave-bsc-agent`
-- `pb-wave-perp-replay`
-- `pb-wave-short-agent`
-
-默认还是推荐 `pb-wave-agent-hub`，因为这个名字足够宽：
-
-- 可以覆盖当前的线上模拟盘
-- 可以覆盖回放 / 回测引擎
-- 也为未来接入 BSC / `BNB AI Agent SDK` 留了空间
-
 ## 项目做什么
 
-这个仓库包含两套互相关联的工作流，但面向比赛的核心价值是 `Strategy Skill` 这一层。
+这个仓库包含两套互相关联的工作流。
 
 ### 1. 实时工作流
 
@@ -76,7 +51,7 @@
 
 ### 3. Strategy Skill 工作流
 
-对于 Track 2，核心输出不是实时执行，而是：
+这一层的核心输出不是实时执行，而是：
 
 - 市场快照输入
 - 结构化策略候选输出
@@ -256,7 +231,7 @@ PYTHONPATH=src python3 -m pb_wave_agent_hub.cli.run_batch_replay \
 - `trades.json`
 - `equity_curve.json`
 
-## Track 2 Skill 导出
+## Skill 导出
 
 可以从单个快照导出一个 `strategy-skill-style` JSON。
 
@@ -341,11 +316,9 @@ pytest tests/test_minimal_replay.py
 
 这个模型不是为了极致精确，而是为了可解释、可复现。
 
-## 数据提交建议
+## 数据打包建议
 
-对于公开仓库，不建议直接提交大体积完整历史数据。
-
-建议公开仓库中保留：
+建议仓库中保留：
 
 - 源代码
 - 示例配置
@@ -363,28 +336,15 @@ pytest tests/test_minimal_replay.py
 
 这样仓库本身会更干净，但仍然保留可复现性。
 
-## 关于 BNB AI Agent SDK
+## 扩展方向
 
-当前这版提交的建议是：
-
-- 不要把仓库发布这件事卡死在 `BNB AI Agent SDK` 集成上
-- 这个项目以 Track 2 的定位已经可以成立
-- 如果后续要冲特别奖，再把 `BNB AI Agent SDK` 作为扩展层接进来
-
-更实际的表达方式是：
-
-- 主提交：当前这个仓库
-- 可选增强：新增 `bsc_agent/` 或 `agent_sdk/` 模块，把榜单扫描、回放触发、信号发布包装成 BSC Agent 能调用的接口
-
-## 如果想冲特别奖
-
-如果你后续想更贴近 BSC 生态，可以在这个仓库之上增加：
+如果后续想更贴近 BSC 生态，可以在这个仓库之上增加：
 
 - BSC 链上策略状态锚定
 - BSC Agent 任务调度
 - 基于 `BNB AI Agent SDK` 的榜单扫描和交易决策封装
 
-这些更适合当作扩展方向，而不是当前提交的前置条件。
+这些更适合当作扩展能力，而不是当前仓库的前置条件。
 
 ## 许可与免责声明
 

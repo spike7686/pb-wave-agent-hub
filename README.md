@@ -5,43 +5,18 @@ Language:
 - English
 - [简体中文](./README.zh-CN.md)
 
-Track target:
+`PB Wave Agent Hub` is a research and virtual-trading framework for PB Wave short strategies on Binance perpetual markets.
 
-- `BNB Hack: AI Trading Agent Edition`
-- `Track 2: Strategy Skills`
-
-`PB Wave Agent Hub` is a clean submission repository extracted from the live-running `pb_wave_clean` stack and the offline `pb_rank_replay` research code.
-
-For this hackathon, the repository is intentionally framed as a `Strategy Skill` project:
+The project is built around a structured signal pipeline:
 
 - ingest leaderboard snapshots
 - enrich them with Binance perp 1h kline and 1h open-interest context
 - produce structured short candidates with entry / stop / target fields
 - replay those candidates forward into orders, PnL, and equity curves
 
-This makes the project easy to judge on technical execution and reproducibility without pretending it is already a BSC live-trading agent.
-
-## Repository Name
-
-Recommended GitHub repository name:
-
-- `pb-wave-agent-hub`
-
-Alternative names:
-
-- `pb-wave-bsc-agent`
-- `pb-wave-perp-replay`
-- `pb-wave-short-agent`
-
-`pb-wave-agent-hub` is the best default because it is broad enough for:
-
-- current live paper trader
-- replay / backtest engine
-- later BSC / BNB AI Agent SDK integration
-
 ## What This Project Does
 
-This repository contains two linked workflows, but the competition-facing primary value is the `Strategy Skill` layer.
+This repository contains two linked workflows.
 
 ### 1. Live Workflow
 
@@ -76,7 +51,7 @@ Main package:
 
 ### 3. Strategy Skill Workflow
 
-For Track 2, the key output is:
+The key output of this layer is:
 
 - market snapshot in
 - structured strategy candidates out
@@ -256,7 +231,7 @@ Per-snapshot outputs:
 - `trades.json`
 - `equity_curve.json`
 
-## Track 2 Skill Export
+## Skill Export
 
 Export a strategy-skill-style JSON payload from one snapshot.
 
@@ -339,11 +314,9 @@ Replay and paper trading both use an explicit rough execution cost model:
 
 This is intentionally simple and transparent for reproducibility.
 
-## Data Included / Data Submission Guidance
+## Data Packaging Guidance
 
-For public submission, do not commit large raw full-history datasets unless needed.
-
-Recommended public submission contents:
+Recommended repository contents:
 
 - source code
 - example configs
@@ -352,7 +325,7 @@ Recommended public submission contents:
 - sample replay outputs
 - setup instructions
 
-Recommended release assets or external bundle contents:
+Recommended release assets or external bundles:
 
 - one-month snapshot set
 - required 1h kline history
@@ -361,28 +334,15 @@ Recommended release assets or external bundle contents:
 
 This keeps the Git repository clean while preserving reproducibility.
 
-## BNB AI Agent SDK Requirement
+## Extension Ideas
 
-Current recommendation for this submission:
-
-- it is **not necessary to block this repository on BNB AI Agent SDK integration**
-- this project is already viable as a reproducible technical submission
-- if the hackathon track or special award specifically rewards `BNB AI Agent SDK`, add it as an optional integration layer
-
-Best practical framing:
-
-- primary submission: this repository
-- optional enhancement: add a `bsc_agent/` or `agent_sdk/` module that wraps leaderboard generation, replay triggers, or execution actions behind a BSC agent interface
-
-## Suggested Next Step For Special Awards
-
-If you want to optimize for BSC ecosystem fit, add one of:
+Possible future extensions:
 
 - BSC on-chain strategy state anchoring
 - BSC agent task orchestration
 - BNB AI Agent SDK wrapper for leaderboard scanning and trade decision execution
 
-That should be treated as an extension, not as a prerequisite for publishing this repository.
+These should be treated as optional extensions, not prerequisites for using the current repository.
 
 ## License / Disclaimer
 

@@ -7,7 +7,7 @@ Language:
 
 ## Goal
 
-This script is designed for a short Track 2 demo.
+This script is designed for a short product demo.
 
 Recommended duration:
 
@@ -28,13 +28,13 @@ Suggested order:
 2. pipeline
 3. repo proof
 4. generated outputs
-5. why it fits Track 2
+5. why it matters
 
 ## Opening
 
 Suggested spoken version:
 
-“PB Wave Agent Hub is a Track 2 strategy skill project. It starts from crypto leaderboard snapshots, enriches them with Binance perpetual 1h price and open-interest context, and converts that market state into structured short-strategy specifications that can be replayed, inspected, and extended.”
+“PB Wave Agent Hub starts from crypto leaderboard snapshots, enriches them with Binance perpetual 1h price and open-interest context, and converts that market state into structured short-strategy specifications that can be replayed, inspected, and extended.”
 
 ## Problem Statement
 
@@ -46,19 +46,19 @@ Suggested spoken version:
 
 Suggested spoken version:
 
-“The system has two linked layers. The live layer collects a filtered perp-executable leaderboard and runs three virtual books: PB5, PB7.5, and PB10. The competition-facing layer freezes historical snapshots, rebuilds market context from 1-hour kline and open-interest data, generates structured signals, and replays them into orders and equity curves.”
+“The system has two linked layers. The live layer collects a filtered perp-executable leaderboard and runs three virtual books: PB5, PB7.5, and PB10. The replay layer freezes historical snapshots, rebuilds market context from 1-hour kline and open-interest data, generates structured signals, and replays them into orders and equity curves.”
 
 ## Show The Repository
 
 Open:
 
 - `README.md`
-- `docs/track2-positioning.md`
+- `docs/architecture.md`
 - `docs/strategy-skill-schema.md`
 
 Suggested spoken version:
 
-“Here the repository is explicitly framed for Track 2. The goal is to produce a machine-readable strategy specification from market data, not to pretend that this is already a fully deployed on-chain execution agent.”
+“Here the repository is framed as a research and replay framework. The goal is to produce a machine-readable strategy specification from market data and validate it with reproducible replay outputs.”
 
 ## Show The Minimal Reproducible Path
 
@@ -97,25 +97,19 @@ Suggested spoken version:
 
 “The bundled minimal sample is a pipeline verification sample, not a cherry-picked PnL demo. Some example snapshots produce zero trades, which is expected. That is still useful because it proves the state reconstruction, filtering, diagnostics, and export path are all working.”
 
-## Why It Fits Track 2
+## Why It Matters
 
 Suggested spoken version:
 
-“This fits Track 2 because it transforms market data into a structured, backtestable strategy specification. It has explicit entries, stops, targets, diagnostics, and replay outputs. It does not depend on a live execution layer in order to be evaluated.”
+“This matters because it transforms market data into a structured, backtestable strategy specification. It has explicit entries, stops, targets, diagnostics, and replay outputs. It does not stop at signal ideas.”
 
-## If Judges Ask About Track 1
-
-Suggested answer:
-
-“Track 1 would require an on-chain execution agent and wallet-driven trade execution on BSC. This repository is not claiming that today. Instead, it provides the strategy-skill layer that such an agent could call in the future.”
-
-## If Judges Ask About Originality
+## If The Audience Asks About Originality
 
 Suggested answer:
 
 “The novelty is not a single indicator. The novelty is the combination of leaderboard-based candidate discovery, perp-specific market routing, 1h structural weakness detection, open-interest context, and reproducible replay outputs.”
 
-## If Judges Ask About Real-World Use
+## If The Audience Asks About Real-World Use
 
 Suggested answer:
 
