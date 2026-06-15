@@ -17,6 +17,7 @@ Main skill-facing files:
 - `scripts/run_skill.py`
 - `src/pb_wave_agent_hub/cli/export_strategy_skill.py`
 - `src/pb_wave_agent_hub/cli/run_batch_replay.py`
+- `docs/example-prompts.md`
 
 ## Export A Skill Payload
 

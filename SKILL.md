@@ -67,6 +67,7 @@ Supporting files:
 
 - `docs/skill-usage.md`
 - `docs/strategy-skill-schema.md`
+- `docs/example-prompts.md`
 
 ## outputs
 
@@ -154,6 +155,10 @@ Use these prompts or checks to validate the skill locally:
 - “Export a structured short-signal payload from the minimal replay config.”
 - “Run replay on the bundled minimal example and show the batch summary path.”
 - “Confirm that the exported payload contains `skill_name`, `candidate_count`, and `diagnostics_preview`.”
+
+More prompt examples:
+
+- `docs/example-prompts.md`
 
 Recommended local validation:
 
