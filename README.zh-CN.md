@@ -257,6 +257,20 @@ PYTHONPATH=src python3 -m pb_wave_agent_hub.cli.export_strategy_skill \
 - 特征上下文
 - 适合回放和检查的信号元数据
 
+统一本地入口：
+
+```bash
+python3 scripts/run_skill.py export \
+  --config configs/month_replay.minimal_example.json \
+  --output data/examples/month_2026_05/skill_example.json
+```
+
+相关文件：
+
+- `SKILL.md`
+- `scripts/run_skill.py`
+- `docs/skill-usage.md`
+
 ## 内置样例资源
 
 仓库里自带一个轻量级样例目录：

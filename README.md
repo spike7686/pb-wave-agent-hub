@@ -255,6 +255,20 @@ This produces a structured payload containing:
 - feature context
 - replay-friendly signal metadata
 
+Unified local wrapper:
+
+```bash
+python3 scripts/run_skill.py export \
+  --config configs/month_replay.minimal_example.json \
+  --output data/examples/month_2026_05/skill_example.json
+```
+
+Related files:
+
+- `SKILL.md`
+- `scripts/run_skill.py`
+- `docs/skill-usage.md`
+
 ## Included Example Assets
 
 This repository includes a lightweight example directory:
