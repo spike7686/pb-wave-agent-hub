@@ -1,5 +1,10 @@
 # Track 2 Positioning
 
+Language:
+
+- English
+- [简体中文](./track2-positioning.zh-CN.md)
+
 ## Submission Track
 
 This repository is positioned for:
@@ -76,4 +81,3 @@ Avoid framing this as:
 - a production brokerage system
 
 Those belong to a future Track 1-style extension, not to the current submission.
-

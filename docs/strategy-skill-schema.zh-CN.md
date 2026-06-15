@@ -1,17 +1,17 @@
-# Strategy Skill Schema
+# Strategy Skill 数据结构
 
-Language:
+语言版本：
 
-- English
-- [简体中文](./strategy-skill-schema.zh-CN.md)
+- [English](./strategy-skill-schema.md)
+- 简体中文
 
-## Purpose
+## 目的
 
-The goal of the strategy skill layer is to convert a fixed market snapshot into a structured, replayable trading specification.
+Strategy Skill 这一层的目标，是把一个固定时点的市场快照，转换成结构化、可回放的交易规格。
 
-This repository uses the following conceptual output shape.
+这个仓库采用的概念性输出结构如下。
 
-## Top-Level Object
+## 顶层对象
 
 ```json
 {
@@ -26,7 +26,7 @@ This repository uses the following conceptual output shape.
 }
 ```
 
-## Candidate Object
+## Candidate 对象
 
 ```json
 {
@@ -49,9 +49,9 @@ This repository uses the following conceptual output shape.
 }
 ```
 
-## Feature Fields
+## Feature 字段
 
-Suggested included fields:
+建议包含：
 
 - `runup_24h_pct`
 - `trend_7d_pct`
@@ -70,9 +70,9 @@ Suggested included fields:
 - `oi_to_vol_ratio`
 - `price_oi_divergence_4h`
 
-## Rationale Fields
+## Rationale 字段
 
-Suggested included fields:
+建议包含：
 
 - `entry_profile`
 - `stop_profile`
@@ -80,10 +80,10 @@ Suggested included fields:
 - `selection_variant`
 - `summary`
 
-## Why This Schema Matters
+## 为什么这个结构重要
 
-This makes the project easy to judge as a Track 2 submission because it provides:
+这个结构让项目更适合作为 Track 2 提交物，因为它提供了：
 
-- machine-readable strategy outputs
-- a clear bridge between raw market data and final order specs
-- a format that can be replayed, inspected, and extended
+- 机器可读的策略输出
+- 从原始市场数据到最终订单规格之间的清晰桥梁
+- 一个可回放、可检查、可扩展的输出格式

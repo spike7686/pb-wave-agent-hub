@@ -1,5 +1,10 @@
 # PB Wave Agent Hub
 
+Language:
+
+- English
+- [简体中文](./README.zh-CN.md)
+
 Track target:
 
 - `BNB Hack: AI Trading Agent Edition`

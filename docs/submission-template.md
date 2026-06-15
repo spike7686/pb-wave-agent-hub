@@ -1,5 +1,10 @@
 # Submission Template
 
+Language:
+
+- English
+- [简体中文](./submission-template.zh-CN.md)
+
 ## Project Name
 
 PB Wave Agent Hub

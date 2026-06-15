@@ -1,5 +1,10 @@
 # Architecture
 
+Language:
+
+- English
+- [简体中文](./architecture.zh-CN.md)
+
 ## Overview
 
 `PB Wave Agent Hub` has two coordinated subsystems:
@@ -97,4 +102,3 @@ Future BSC or `BNB AI Agent SDK` integration can wrap:
 - signal publishing
 
 without changing the core live or replay logic.
-

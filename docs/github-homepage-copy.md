@@ -1,5 +1,10 @@
 # GitHub Homepage Copy
 
+Language:
+
+- English
+- [简体中文](./github-homepage-copy.zh-CN.md)
+
 ## Short Description
 
 Live paper trading and snapshot-conditioned replay framework for PB Wave short strategies on Binance perpetual markets.
@@ -24,4 +29,3 @@ PB Wave short-strategy live paper trader + historical snapshot replay framework 
 - `leaderboard`
 - `python`
 - `hackathon`
-
